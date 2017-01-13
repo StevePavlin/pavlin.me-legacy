@@ -1,3 +1,7 @@
+/**
+ * Used before I discovered the amazing nginx heroku buildpack
+ */
+
 require('dotenv').config();
 
 import express from 'express';
@@ -7,9 +11,9 @@ let app = express();
 app.server = http.createServer(app);
 
 // serve our built react client
-//if (process.env.NODE_ENV == 'PRODUCTION') {
+if (process.env.NODE_ENV == 'PRODUCTION') {
   app.use(express.static(__dirname + '/public'));
-//}
+}
 
 app.server.listen(process.env.PORT);
 
