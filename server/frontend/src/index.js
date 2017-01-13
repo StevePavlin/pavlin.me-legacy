@@ -11,8 +11,8 @@ let app = express();
 app.server = http.createServer(app);
 
 // serve our built react client
-if (process.env.NODE_ENV == 'PRODUCTION') {
-  app.use(express.static(__dirname + '/public'));
+if (process.env.NODE_ENV == 'production') {
+  app.use(express.static(${__dirname}`/public`));
 }
 
 app.server.listen(process.env.PORT);
