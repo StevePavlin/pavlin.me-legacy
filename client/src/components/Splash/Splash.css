@@ -1,0 +1,89 @@
+.splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  font-size: 14px;
+}
+
+.splash-container {
+  max-width: 320px;
+}
+
+.splash .navigation-outlet {
+  background: rgba(0, 0, 0, 0.2);
+  color: rgba(255,255,255,0.7);
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.center-container {
+
+}
+
+.center-container>h2, .center-container>h3 {
+  text-align: center;
+}
+
+.center-container>h2 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2.4em;
+}
+
+.center-container>h3 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1em;
+  margin: 0;
+}
+
+.center-container>hr {
+  border: 1px outset rgba(255,255,255,0.2);
+}
+
+.center-container .social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.center-container .social-links i.fa {
+  font-size: 1.3em;
+}
+
+.center-container .social-links a {
+  color: white;
+  transition: all 400ms;
+  margin-left: 15px;
+}
+
+.center-container .social-links a:hover {
+  color: rgba(255,255,255,0.7);
+}
+
+h2.navigation-page {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  color: rgba(255,255,255, 1);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h3 {
+  color: rgba(255,255,255,0.7);
+  font-size: 12px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.center-container .seperator {
+  margin: 0 2px;
+  opacity: 0.4;
+}

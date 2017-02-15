@@ -1,5 +1,6 @@
 /**
  * Used before I discovered the amazing nginx heroku buildpack
+ * TODO use server side rendering
  */
 
 require('dotenv').config();
